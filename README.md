@@ -23,8 +23,8 @@ Each **test case** bundles a primary RPM, rear RPM, and fault type into a named 
 Near the top of the file:
 
 ```cpp
-const uint8\\\_t TEST\\\_SELECTED = 0; // which test to run
+const uint8_t TEST_SELECTED = 0; // which test to run
 ```
 
-This is the **index into the `tests\\\[]` array**, containing several modifiable preset test cases, after changing the sketch can be reuploaded
+This is the **index into the `tests[]` array**, containing several modifiable preset test cases, after changing the sketch can be reuploaded
 
